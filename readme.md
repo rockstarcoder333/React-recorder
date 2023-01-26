@@ -1,10 +1,10 @@
-# react-mp3-recorder ([demo](https://transitive-bullshit.github.io/react-mp3-recorder/))
+# react-recorder ([demo](https://transitive-bullshit.github.io/react-recorder/))
 
 > Simple microphone recorder for React that captures mp3 audio.
 
-[![NPM](https://img.shields.io/npm/v/react-mp3-recorder.svg)](https://www.npmjs.com/package/react-mp3-recorder) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-recorder.svg)](https://www.npmjs.com/package/react-recorder) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![Demo](https://raw.githubusercontent.com/transitive-bullshit/react-mp3-recorder/master/media/demo.gif)](https://transitive-bullshit.github.io/react-mp3-recorder/)
+[![Demo](https://raw.githubusercontent.com/transitive-bullshit/react-recorder/master/media/demo.gif)](https://transitive-bullshit.github.io/react-recorder/)
 
 ## Intro
 
@@ -15,9 +15,9 @@ Capturing MP3 audio is much more efficient and practical than using the [MediaSt
 ## Install
 
 ```bash
-npm install --save react-mp3-recorder
+npm install --save react-recorder
 # or
-yarn add react-mp3-recorder
+yarn add react-recorder
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add react-mp3-recorder
 ```jsx
 import React, { Component } from 'react'
 
-import Recorder from 'react-mp3-recorder'
+import Recorder from 'react-recorder'
 
 export default class App extends Component {
   render () {
@@ -46,14 +46,3 @@ export default class App extends Component {
   }
 }
 ```
-
-## License
-
-- [react-mp3-recorder](https://github.com/transitive-bullshit/react-mp3-recorder) is licensed under [MIT](https://opensource.org/licenses/MIT) © [transitive-bullshit](https://github.com/transitive-bullshit).
-- [vmsg](https://github.com/Kagami/vmsg) is licensed under [CC0](https://github.com/Kagami/vmsg/blob/master/COPYING).
-- LAME is licensed under [LGPL](https://github.com/Kagami/lame-svn/blob/master/lame/COPYING).
-- MP3 patents seem to have [expired since April 23, 2017](https://en.wikipedia.org/wiki/LAME#Patents_and_legal_issues).
-
-This module was bootstrapped with [create-react-library](https://github.com/transitive-bullshit/create-react-library).
-
-Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
